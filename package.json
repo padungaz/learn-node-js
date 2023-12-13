@@ -1,0 +1,32 @@
+{
+  "name": "learn-node",
+  "version": "1.0.0",
+  "description": "nodejs",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon ./src/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/padungaz/learn-node-js.git"
+  },
+  "keywords": [
+    "nodejs"
+  ],
+  "author": "anh dung",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/padungaz/learn-node-js/issues"
+  },
+  "homepage": "https://github.com/padungaz/learn-node-js#readme",
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "ejs": "^3.1.9",
+    "express": "^4.18.2",
+    "mysql2": "3.6.5"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.2"
+  }
+}
